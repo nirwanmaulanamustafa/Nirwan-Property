@@ -1,0 +1,98 @@
+/* Navbar style */
+/* @media (max-width: 10000px) {
+} */
+.navbar-fixed {
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  background-color: #00059f39;
+  padding-bottom: 40px;
+  transition: ease-in-out 0.3s all;
+}
+.navbar-dark {
+  transition: ease-in-out 0.3s all;
+}
+/* .nav-color {
+  background-color: red;
+  transition: ease-in-out 2s all;
+}
+.bg-transparent {
+  transition: ease-in-out 2s all;
+} */
+
+@media (min-width: 0px) {
+  .navbar-collapse {
+    background-color: #00059fba;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-bottom: 1.5rem;
+  }
+ 
+}
+@media (min-width: 780px) {
+  .navbar-collapse {
+    margin-top: 0px;
+    background-color: #00059f00;
+    padding-bottom: 0px;
+  }
+  #search .search-judul {
+    font-size: 48px;
+  }
+}
+
+.navbar {
+  z-index: 3;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: var(--white);
+}
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  padding: 8px 34px;
+  background-color: transparent;
+  color: var(--white);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.928);
+}
+
+.button-secondary {
+  /* width: 133px;
+    height: 40px; */
+  padding: 8px 30px;
+  background-color: var(--white);
+  color: var(--pr-color);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.navbar-brand:focus-visible {
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.131);
+}
+.nav-link:focus-visible {
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.131);
+}
+
+button:focus-visible {
+  outline: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.131);
+}

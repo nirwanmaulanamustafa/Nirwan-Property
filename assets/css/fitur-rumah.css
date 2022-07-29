@@ -1,0 +1,75 @@
+/* FITUR Rumah */
+
+.button-fitur {
+  padding: 12px 32px;
+  background-color: var(--blue);
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+}
+.padding-14 {
+  padding-left: 14px;
+}
+
+#fitur h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.card-overlay {
+  color: var(--white);
+}
+
+.card-overlay h5 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.card-overlay span {
+  font-size: 14px;
+}
+.card-overlay h6 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-overlay button {
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 9px 22px;
+}
+.card-fitur .overlay {
+  background-color: rgb(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+}
+.card-fitur .overlay:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  opacity: 1;
+}
+h5.notif-fitur {
+  font-size: 12px;
+  font-weight: 800;
+}
+.button-arrow-left {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  padding: 0px;
+  margin-left: 35px;
+  background-color: var(--blue);
+}
+
+.button-arrow-right {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  padding: 0px;
+  background-color: var(--blue);
+}

@@ -1,0 +1,82 @@
+/* Contact */
+
+#contact {
+  background-image: url(../img/bg-contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#contact .overlay {
+  background: rgb(0, 0, 0, 0.5);
+}
+
+#contact .container {
+  padding: 160px 0;
+}
+
+#contact h3 {
+  width: 600px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  color: var(--white);
+}
+
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--white);
+}
+
+.contact a {
+  width: 291px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+.instagram-property {
+  margin-left: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.card-contact {
+  width: 100%;
+  height: 418px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 23px 46px;
+}
+
+.card-contact h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: var(--blue);
+  margin-bottom: 20px;
+}
+
+.form-control-question {
+  border: none;
+  background: var(--white);
+  border-radius: 8px;
+}
+.button-kontak {
+  width: 100%;
+  height: 38px;
+  width: 100%;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+}

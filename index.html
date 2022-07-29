@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://www.nirwan.com/" />
+    <meta property="og:description" content="Nirwan Property Murah " />
+    <!-- Bootstrap V5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- Custom Css Dashboad -->
+    <link rel="stylesheet" href="assets/css/style-dashboard.css" />
+    <link rel="stylesheet" href="assets/css/dashboard/hero.css" />
+    <link rel="stylesheet" href="assets/css/dashboard/navbar.css" />
+    <link rel="stylesheet" href="assets/css/Layanan.css" />
+    <link rel="stylesheet" href="assets/css/search.css" />
+    <link rel="stylesheet" href="assets/css/rekomendasi.css">
+    <link rel="stylesheet" href="assets/css/fitur-rumah.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link rel="Icon" href="assets/icon/logo.svg" type="image/x-icon" />
+    <title>Dashboard - NirwanProperty</title>
+    <!-- Data Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Start :: Navbar -->
+    <nav
+      class="navbar navbar-expand-lg pt-lg-2 pb-lg-3  navbar-dark position-fixed w-100" >
+      <div class="container mt-lg-2" data-aos="fade-down">
+        <a class="navbar-brand" href="/"
+          ><img
+            src="assets/icon/logo.svg"
+            alt=""
+            width="30"
+            class="align-self-center me-3"
+          />Nirwan Property</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#layanan">Service</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#searchb" class="nav-link">Property</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+          <div class="text-center">
+            <button class="button-primary">Sign-Up</button>
+            <button class="button-secondary">Sign-in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End :: Navbar -->
+
+    <!-- Start::Hero Section -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div
+            class="col-md-6 hero-tagline align-self-center"
+            data-aos="fade-right"
+          >
+            <h1 data-aos="fade-right" data-aos-delay="200">
+              Find Your Dream House Property
+            </h1>
+            <p data-aos="fade-right" data-aos-delay="300">
+              <span class="fw-bold"> Nirwan Property </span>is here to find the
+              best house for you, to sell or rent with sources Trusted.
+            </p>
+            <button
+              class="button-lg-primary"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            >
+              <svg
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#00069f"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"
+                />
+              </svg>
+              Find Property
+            </button>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+
+      <img
+        class="position-absolute end-0 bottom-0 img-hero visible-lg"
+        src="assets/img/Hero-Banner.png"
+        alt="Property"
+        data-aos="fade-up"
+      />
+      <img
+        src="assets/img/acsen.png"
+        alt=""
+        class="accsent-img h-100 position-absolute top-0 start-0"
+        data-aos="fade-right"
+      />
+    </section>
+    <!-- End::Hero Section -->
+
+    <!-- Start:: Layanan Section -->
+    <section id="layanan">
+      <div class="container">
+        <div class="row" data-aos="fade-down" data-aos-delay="100">
+          <div class="col-12 text-center">
+            <h2>Our Service</h2>
+            <span class="sub-title">
+              Nirwan Property is the solution for you</span
+            >
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <a
+            href="www.google.com"
+            class="col-sm-12 col-md-6 col-lg-4 text-decoration-none"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="card-layanan text-center">
+              <div class="circle-icon position-relative mx-auto">
+                <svg
+                  width="49"
+                  height="45"
+                  viewBox="0 0 49 45"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="mt-2"
+                >
+                  <path
+                    d="M48.4467 22.2836C48.4467 23.8454 47.1847 25.0688 45.7543 25.0688H43.0619L43.1208 38.9596C43.1208 39.2026 43.104 39.4282 43.0787 39.6624V41.068C43.0787 42.9855 41.5726 44.5386 39.7132 44.5386H38.367C38.2744 44.5386 38.1819 44.4605 38.0893 44.5299C37.9715 44.4605 37.8537 44.5386 37.7359 44.5386H32.9821C31.1227 44.5386 29.6166 42.9855 29.6166 41.068V33.4328C29.6166 31.8971 28.4134 30.6563 26.9242 30.6563H21.5394C20.0501 30.6563 18.8469 31.8971 18.8469 33.4328V41.068C18.8469 42.9855 17.3409 44.5386 15.4814 44.5386H10.7781C10.6519 44.5386 10.5257 44.5299 10.3995 44.5212C10.2985 44.5299 10.1975 44.5386 10.0966 44.5386H8.75036C6.89175 44.5386 5.38484 42.9855 5.38484 41.068V31.3505C5.38484 31.2724 5.38736 31.1856 5.39241 31.1075V25.0688H2.69663C1.17962 25.0688 0 23.8454 0 22.2836C0 21.5028 0.252751 20.8086 0.842223 20.2013L22.4144 0.810977C23.0034 0.202416 23.6765 0.115479 24.2654 0.115479C24.8544 0.115479 25.5275 0.289353 26.0407 0.72404L47.5212 20.2013C48.1943 20.8086 48.5393 21.5028 48.4467 22.2836Z"
+                    id="icon-1"
+                  />
+                  <path
+                    d="M17.5294 9.5C17.5294 8.83696 17.7773 8.20107 18.2186 7.73223C18.6598 7.26339 19.2583 7 19.8824 7H28.1176C28.7417 7 29.3402 7.26339 29.7814 7.73223C30.2227 8.20107 30.4706 8.83696 30.4706 9.5V18.25H34V20.75C34 21.7446 33.6282 22.6984 32.9663 23.4017C32.3044 24.1049 31.4066 24.5 30.4706 24.5H25.7647V21.375C25.7647 20.5462 25.4548 19.7513 24.9033 19.1653C24.3517 18.5792 23.6036 18.25 22.8235 18.25H17.5294V9.5ZM30.4706 23.25C31.0946 23.25 31.6931 22.9866 32.1344 22.5178C32.5756 22.0489 32.8235 21.413 32.8235 20.75V19.5H30.4706V23.25ZM21.6471 10.75C21.491 10.75 21.3414 10.8158 21.2311 10.9331C21.1208 11.0503 21.0588 11.2092 21.0588 11.375C21.0588 11.5408 21.1208 11.6997 21.2311 11.8169C21.3414 11.9342 21.491 12 21.6471 12H26.3529C26.509 12 26.6586 11.9342 26.7689 11.8169C26.8792 11.6997 26.9412 11.5408 26.9412 11.375C26.9412 11.2092 26.8792 11.0503 26.7689 10.9331C26.6586 10.8158 26.509 10.75 26.3529 10.75H21.6471ZM21.6471 13.25C21.491 13.25 21.3414 13.3158 21.2311 13.4331C21.1208 13.5503 21.0588 13.7092 21.0588 13.875C21.0588 14.0408 21.1208 14.1997 21.2311 14.3169C21.3414 14.4342 21.491 14.5 21.6471 14.5H26.3529C26.509 14.5 26.6586 14.4342 26.7689 14.3169C26.8792 14.1997 26.9412 14.0408 26.9412 13.875C26.9412 13.7092 26.8792 13.5503 26.7689 13.4331C26.6586 13.3158 26.509 13.25 26.3529 13.25H21.6471ZM22.8235 19.5C23.2916 19.5 23.7404 19.6975 24.0714 20.0492C24.4023 20.4008 24.5882 20.8777 24.5882 21.375V25.125C24.5882 25.6223 24.4023 26.0992 24.0714 26.4508C23.7404 26.8025 23.2916 27 22.8235 27H15.7647C15.2967 27 14.8478 26.8025 14.5169 26.4508C14.1859 26.0992 14 25.6223 14 25.125V21.375C14 20.8777 14.1859 20.4008 14.5169 20.0492C14.8478 19.6975 15.2967 19.5 15.7647 19.5H22.8235ZM23.4118 25.125V23.875C22.9437 23.875 22.4949 24.0725 22.1639 24.4242C21.833 24.7758 21.6471 25.2527 21.6471 25.75H22.8235C22.8235 25.5842 22.8855 25.4253 22.9958 25.3081C23.1061 25.1908 23.2558 25.125 23.4118 25.125ZM23.4118 21.375C23.2558 21.375 23.1061 21.3092 22.9958 21.1919C22.8855 21.0747 22.8235 20.9158 22.8235 20.75H21.6471C21.6471 21.2473 21.833 21.7242 22.1639 22.0758C22.4949 22.4275 22.9437 22.625 23.4118 22.625V21.375ZM15.7647 20.75C15.7647 20.9158 15.7027 21.0747 15.5924 21.1919C15.4821 21.3092 15.3325 21.375 15.1765 21.375V22.625C15.6445 22.625 16.0934 22.4275 16.4243 22.0758C16.7553 21.7242 16.9412 21.2473 16.9412 20.75H15.7647ZM15.1765 25.125C15.3325 25.125 15.4821 25.1908 15.5924 25.3081C15.7027 25.4253 15.7647 25.5842 15.7647 25.75H16.9412C16.9412 25.2527 16.7553 24.7758 16.4243 24.4242C16.0934 24.0725 15.6445 23.875 15.1765 23.875V25.125ZM19.2941 21.375C18.8261 21.375 18.3772 21.5725 18.0463 21.9242C17.7153 22.2758 17.5294 22.7527 17.5294 23.25C17.5294 23.7473 17.7153 24.2242 18.0463 24.5758C18.3772 24.9275 18.8261 25.125 19.2941 25.125C19.7621 25.125 20.211 24.9275 20.542 24.5758C20.8729 24.2242 21.0588 23.7473 21.0588 23.25C21.0588 22.7527 20.8729 22.2758 20.542 21.9242C20.211 21.5725 19.7621 21.375 19.2941 21.375Z"
+                    id="icon-2"
+                  />
+                </svg>
+              </div>
+              <h3>New Property</h3>
+              <p>
+                Dream House, With Facilities <br />
+                smart house system and best security system
+              </p>
+            </div>
+          </a>
+          <a
+            href="www.google.com"
+            class="col-sm-12 col-md-6 col-lg-4 text-decoration-none"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="card-layanan text-center">
+              <div class="circle-icon position-relative mx-auto">
+                <svg
+                  width="49"
+                  height="45"
+                  viewBox="0 0 49 45"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="mt-2"
+                >
+                  <path
+                    d="M48.4467 22.2836C48.4467 23.8454 47.1847 25.0688 45.7543 25.0688H43.0619L43.1208 38.9596C43.1208 39.2026 43.104 39.4282 43.0787 39.6624V41.068C43.0787 42.9855 41.5726 44.5386 39.7132 44.5386H38.367C38.2744 44.5386 38.1819 44.4605 38.0893 44.5299C37.9715 44.4605 37.8537 44.5386 37.7359 44.5386H32.9821C31.1227 44.5386 29.6166 42.9855 29.6166 41.068V33.4328C29.6166 31.8971 28.4134 30.6563 26.9242 30.6563H21.5394C20.0501 30.6563 18.8469 31.8971 18.8469 33.4328V41.068C18.8469 42.9855 17.3409 44.5386 15.4814 44.5386H10.7781C10.6519 44.5386 10.5257 44.5299 10.3995 44.5212C10.2985 44.5299 10.1975 44.5386 10.0966 44.5386H8.75036C6.89175 44.5386 5.38484 42.9855 5.38484 41.068V31.3505C5.38484 31.2724 5.38736 31.1856 5.39241 31.1075V25.0688H2.69663C1.17962 25.0688 0 23.8454 0 22.2836C0 21.5028 0.252751 20.8087 0.842223 20.2013L22.4144 0.810977C23.0034 0.202416 23.6765 0.115479 24.2654 0.115479C24.8544 0.115479 25.5275 0.289353 26.0407 0.72404L47.5212 20.2013C48.1943 20.8087 48.5393 21.5028 48.4467 22.2836Z"
+                    id="icon-1"
+                  />
+                  <path
+                    d="M24.825 15.625C24.275 15.4875 23.725 15.2125 23.3125 14.8C22.9 14.6625 22.7625 14.25 22.7625 13.975C22.7625 13.7 22.9 13.2875 23.175 13.15C23.5875 12.875 24 12.6 24.4125 12.7375C25.2375 12.7375 25.925 13.15 26.3375 13.7L27.575 12.05C27.1625 11.6375 26.75 11.3625 26.3375 11.0875C25.925 10.8125 25.375 10.675 24.825 10.675V8.75H23.175V10.675C22.4875 10.8125 21.8 11.225 21.25 11.775C20.7 12.4625 20.2875 13.2875 20.425 14.1125C20.425 14.9375 20.7 15.7625 21.25 16.3125C21.9375 17 22.9 17.4125 23.725 17.825C24.1375 17.9625 24.6875 18.2375 25.1 18.5125C25.375 18.7875 25.5125 19.2 25.5125 19.6125C25.5125 20.025 25.375 20.4375 25.1 20.85C24.6875 21.2625 24.1375 21.4 23.725 21.4C23.175 21.4 22.4875 21.2625 22.075 20.85C21.6625 20.575 21.25 20.1625 20.975 19.75L19.6 21.2625C20.0125 21.8125 20.425 22.225 20.975 22.6375C21.6625 23.05 22.4875 23.4625 23.3125 23.4625V25.25H24.825V23.1875C25.65 23.05 26.3375 22.6375 26.8875 22.0875C27.575 21.4 27.9875 20.3 27.9875 19.3375C27.9875 18.5125 27.7125 17.55 27.025 17C26.3375 16.3125 25.65 15.9 24.825 15.625V15.625ZM24 6C17.95 6 13 10.95 13 17C13 23.05 17.95 28 24 28C30.05 28 35 23.05 35 17C35 10.95 30.05 6 24 6ZM24 26.4875C18.775 26.4875 14.5125 22.225 14.5125 17C14.5125 11.775 18.775 7.5125 24 7.5125C29.225 7.5125 33.4875 11.775 33.4875 17C33.4875 22.225 29.225 26.4875 24 26.4875V26.4875Z"
+                    id="icon-2"
+                  />
+                </svg>
+              </div>
+              <h3>Rent a house</h3>
+              <p>
+                Rent a comfortable house for the family you, the best choice for
+                residence
+              </p>
+            </div>
+          </a>
+          <a
+            href="www.google.com"
+            class="col-sm-12 col-md-6 col-lg-4 text-decoration-none"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="card-layanan text-center">
+              <div class="circle-icon position-relative mx-auto">
+                <svg
+                  width="49"
+                  height="45"
+                  viewBox="0 0 49 45"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="mt-2"
+                >
+                  <path
+                    d="M48.4467 22.2836C48.4467 23.8454 47.1847 25.0688 45.7543 25.0688H43.0619L43.1208 38.9596C43.1208 39.2026 43.104 39.4282 43.0787 39.6624V41.068C43.0787 42.9855 41.5726 44.5386 39.7132 44.5386H38.367C38.2744 44.5386 38.1819 44.4605 38.0893 44.5299C37.9715 44.4605 37.8537 44.5386 37.7359 44.5386H32.9821C31.1227 44.5386 29.6166 42.9855 29.6166 41.068V33.4328C29.6166 31.8971 28.4134 30.6563 26.9242 30.6563H21.5394C20.0501 30.6563 18.8469 31.8971 18.8469 33.4328V41.068C18.8469 42.9855 17.3409 44.5386 15.4814 44.5386H10.7781C10.6519 44.5386 10.5257 44.5299 10.3995 44.5212C10.2985 44.5299 10.1975 44.5386 10.0966 44.5386H8.75036C6.89175 44.5386 5.38484 42.9855 5.38484 41.068V31.3505C5.38484 31.2724 5.38736 31.1856 5.39241 31.1075V25.0688H2.69663C1.17962 25.0688 0 23.8454 0 22.2836C0 21.5028 0.252751 20.8086 0.842223 20.2013L22.4144 0.810977C23.0034 0.202416 23.6765 0.115479 24.2654 0.115479C24.8544 0.115479 25.5275 0.289353 26.0407 0.72404L47.5212 20.2013C48.1943 20.8086 48.5393 21.5028 48.4467 22.2836Z"
+                    id="icon-1"
+                  />
+                  <path
+                    d="M17.5294 9.5C17.5294 8.83696 17.7773 8.20107 18.2186 7.73223C18.6598 7.26339 19.2583 7 19.8824 7H28.1176C28.7417 7 29.3402 7.26339 29.7814 7.73223C30.2227 8.20107 30.4706 8.83696 30.4706 9.5V18.25H34V20.75C34 21.7446 33.6282 22.6984 32.9663 23.4017C32.3044 24.1049 31.4066 24.5 30.4706 24.5H25.7647V21.375C25.7647 20.5462 25.4548 19.7513 24.9033 19.1653C24.3517 18.5792 23.6036 18.25 22.8235 18.25H17.5294V9.5ZM30.4706 23.25C31.0946 23.25 31.6931 22.9866 32.1344 22.5178C32.5756 22.0489 32.8235 21.413 32.8235 20.75V19.5H30.4706V23.25ZM21.6471 10.75C21.491 10.75 21.3414 10.8158 21.2311 10.9331C21.1208 11.0503 21.0588 11.2092 21.0588 11.375C21.0588 11.5408 21.1208 11.6997 21.2311 11.8169C21.3414 11.9342 21.491 12 21.6471 12H26.3529C26.509 12 26.6586 11.9342 26.7689 11.8169C26.8792 11.6997 26.9412 11.5408 26.9412 11.375C26.9412 11.2092 26.8792 11.0503 26.7689 10.9331C26.6586 10.8158 26.509 10.75 26.3529 10.75H21.6471ZM21.6471 13.25C21.491 13.25 21.3414 13.3158 21.2311 13.4331C21.1208 13.5503 21.0588 13.7092 21.0588 13.875C21.0588 14.0408 21.1208 14.1997 21.2311 14.3169C21.3414 14.4342 21.491 14.5 21.6471 14.5H26.3529C26.509 14.5 26.6586 14.4342 26.7689 14.3169C26.8792 14.1997 26.9412 14.0408 26.9412 13.875C26.9412 13.7092 26.8792 13.5503 26.7689 13.4331C26.6586 13.3158 26.509 13.25 26.3529 13.25H21.6471ZM22.8235 19.5C23.2916 19.5 23.7404 19.6975 24.0714 20.0492C24.4023 20.4008 24.5882 20.8777 24.5882 21.375V25.125C24.5882 25.6223 24.4023 26.0992 24.0714 26.4508C23.7404 26.8025 23.2916 27 22.8235 27H15.7647C15.2967 27 14.8478 26.8025 14.5169 26.4508C14.1859 26.0992 14 25.6223 14 25.125V21.375C14 20.8777 14.1859 20.4008 14.5169 20.0492C14.8478 19.6975 15.2967 19.5 15.7647 19.5H22.8235ZM23.4118 25.125V23.875C22.9437 23.875 22.4949 24.0725 22.1639 24.4242C21.833 24.7758 21.6471 25.2527 21.6471 25.75H22.8235C22.8235 25.5842 22.8855 25.4253 22.9958 25.3081C23.1061 25.1908 23.2558 25.125 23.4118 25.125ZM23.4118 21.375C23.2558 21.375 23.1061 21.3092 22.9958 21.1919C22.8855 21.0747 22.8235 20.9158 22.8235 20.75H21.6471C21.6471 21.2473 21.833 21.7242 22.1639 22.0758C22.4949 22.4275 22.9437 22.625 23.4118 22.625V21.375ZM15.7647 20.75C15.7647 20.9158 15.7027 21.0747 15.5924 21.1919C15.4821 21.3092 15.3325 21.375 15.1765 21.375V22.625C15.6445 22.625 16.0934 22.4275 16.4243 22.0758C16.7553 21.7242 16.9412 21.2473 16.9412 20.75H15.7647ZM15.1765 25.125C15.3325 25.125 15.4821 25.1908 15.5924 25.3081C15.7027 25.4253 15.7647 25.5842 15.7647 25.75H16.9412C16.9412 25.2527 16.7553 24.7758 16.4243 24.4242C16.0934 24.0725 15.6445 23.875 15.1765 23.875V25.125ZM19.2941 21.375C18.8261 21.375 18.3772 21.5725 18.0463 21.9242C17.7153 22.2758 17.5294 22.7527 17.5294 23.25C17.5294 23.7473 17.7153 24.2242 18.0463 24.5758C18.3772 24.9275 18.8261 25.125 19.2941 25.125C19.7621 25.125 20.211 24.9275 20.542 24.5758C20.8729 24.2242 21.0588 23.7473 21.0588 23.25C21.0588 22.7527 20.8729 22.2758 20.542 21.9242C20.211 21.5725 19.7621 21.375 19.2941 21.375Z"
+                    id="icon-2"
+                  />
+                </svg>
+              </div>
+              <h3>Investation</h3>
+              <p>
+                Home investment with affordable installments and lowest interest
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End:: Layanan Section -->
+
+    <!-- Start :: Search Section -->
+    <section id="search" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade" data-aos-delay="100">
+            <h2 class="search-judul">Cluster House</h2>
+            <p class="search-paragraph">
+              You can save up to 20% with the lowest mortgage installment fees.
+              Lots of facilities and a comfortable environment
+            </p>
+          </div>
+
+          <!-- Start:: Search Content -->
+          <div class="col-lg-10 col-12 mx-auto mt-5 isi-search">
+            <ul
+              class="nav nav-tabs"
+              id="myTab"
+              role="tablist"
+              data-aos="fade-down"
+            >
+              <li class="nav-item-1 nav-item" role="presentation">
+                <button
+                  class="nav-round-left nav-link active"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#sell"
+                  type="button"
+                  role="tab"
+                  aria-controls="home"
+                  aria-selected="true"
+                >
+                  Sell
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#rent"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                >
+                  Rent
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-round-right nav-link"
+                  id="contact-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#newproperty"
+                  type="button"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                >
+                  New Property
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="sell"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <!-- Start :: Dropdown type house -->
+                <div
+                  class="input-group input-cari mb-3"
+                  data-aos="fade"
+                  data-aos-delay="200"
+                >
+                  <button
+                    class="button-secondary-search dropdown-toggle border-"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icon/house.svg" alt="" />
+                    House Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <!-- Start :: Dropdown Range price -->
+                  <button
+                    class="button-secondary-search dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icon/money.svg" alt="" />
+                    House Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <!-- end :: Dropdown Range price -->
+                  <input
+                    type="text"
+                    class="form-control search-form"
+                    placeholder="Search by location, ID, Property"
+                    aria-label="Text input with dropdown button"
+                  />
+                  <button
+                    class="button-primary-search"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <img
+                      src="assets/icon/search.svg"
+                      class="icon-search"
+                      alt=""
+                    />
+                    Search
+                  </button>
+                </div>
+                <!-- end :: Dropdown type house -->
+              </div>
+              <div
+                class="tab-pane fade"
+                id="rent"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <!-- Start :: Dropdown Rent -->
+                <div class="input-group input-cari mb-3">
+                  <button
+                    class="button-secondary-search dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icon/house.svg" alt="" class="icon-search"/>
+                    House Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <!-- Start :: Dropdown Range price -->
+                  <button
+                    class="button-secondary-search dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icon/money.svg" alt="" />
+                    House Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <!-- end :: Dropdown Range price -->
+                  <input
+                    type="text"
+                    class="form-control search-form"
+                    placeholder="Search by location, ID, Property"
+                    aria-label="Text input with dropdown button"
+                  />
+                  <button
+                    class="button-primary-search"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <img
+                      src="assets/icon/search.svg"
+                      class="icon-search"
+                      width="18px"
+                      alt=""
+                    />
+                    Search
+                  </button>
+                </div>
+                <!-- end :: Dropdown Rent -->
+              </div>
+              <div
+                class="tab-pane fade"
+                id="newproperty"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <!-- Start :: Dropdown new House -->
+                <div class="input-group input-cari mb-3">
+                  <button
+                    class="button-secondary-search dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icon/house.svg" alt="" class="icon-search"/>
+                    House Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <!-- Start :: Dropdown Range price -->
+                  <button
+                    class="button-secondary-search dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icon/money.svg" alt="" />
+                    House Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </li>
+                  </ul>
+                  <!-- end :: Dropdown Range price -->
+                  <input
+                    type="text"
+                    class="form-control search-form"
+                    placeholder="Search by location, ID, Property"
+                    aria-label="Text input with dropdown button"
+                  />
+                  <button
+                    class="button-primary-search"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <img
+                      src="assets/icon/search.svg"
+                      class="icon-search"
+                      width="18px"
+                      alt=""
+                    />
+                    Search
+                  </button>
+                </div>
+                <!-- end :: Dropdown new House -->
+              </div>
+            </div>
+          </div>
+          <!-- End:: Search Content -->
+        </div>
+      </div>
+    </section>
+    <!-- End :: Search Section -->
+
+    <!-- Start:: rekomendasi section -->
+    <section id="rekomendasi">
+      <div class="container pb-5">
+        <div class="row pt-5" data-aos="fade" data-aos-delay="200">
+          <div class="col-12 text-center">
+            <h2 class="text-capitalize judul-shadow">home Recommendations For You</h2>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <!-- Start :: card 1 -->
+          <div class="col-lg-4 pt-4" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="google.com"
+              class="card card-rekomendasi text-decoration-none border-0"
+            >
+              <div class="img-rekomendasi">
+                <img
+                  src="assets/img/home-img.png"
+                  class="rekomendasi-image"
+                  alt=""
+                />
+              </div>
+              <div class="card-body card-body-rekomendasi">
+                <div class="row pt-4">
+                  <div class="col-8 m-0">
+                    <p class="m-0 fw-bold"><sub>IDR.<s class="text-danger"></sub>225.000.000</s></p>
+                    <h5 class="m-0 fw-bold"><sub>IDR.</sub>225.000.000</h5>
+                    <p class="m-0 text-capitalize font-14">Cluster Custodian</p>
+                  </div>
+                  <h6
+                    class="col-4 text-center align-self-center fw-bold sell-hover"
+                  >
+                    Sell
+                  </h6>
+                </div>
+
+                <div class="card-fasilitas pt-4">
+                  <div class="row text-center">
+                    <span class="col-2 pd-hilang">
+                      <svg
+                        width="24"
+                        height="14"
+                        viewBox="0 0 24 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6.6 7C8.25413 7 9.6 5.69151 9.6 4.08333C9.6 2.47516 8.25413 1.16667 6.6 1.16667C4.94588 1.16667 3.6 2.47516 3.6 4.08333C3.6 5.69151 4.94588 7 6.6 7ZM19.8 2.33333H11.4C11.0685 2.33333 10.8 2.59437 10.8 2.91667V8.16667H2.4V0.583333C2.4 0.261042 2.1315 0 1.8 0H0.6C0.2685 0 0 0.261042 0 0.583333V13.4167C0 13.739 0.2685 14 0.6 14H1.8C2.1315 14 2.4 13.739 2.4 13.4167V11.6667H21.6V13.4167C21.6 13.739 21.8685 14 22.2 14H23.4C23.7315 14 24 13.739 24 13.4167V6.41667C24 4.16135 22.1198 2.33333 19.8 2.33333Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold">3</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">Room</p>
+                    </span>
+                    <span class="col-6 pd-hilang">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22.2857 14.5714V17.1429C22.2857 18.6518 21.7143 19.9286 20.5714 20.9732V23.5714C20.5714 23.6964 20.5312 23.7991 20.4509 23.8795C20.3705 23.9598 20.2679 24 20.1429 24H19.2857C19.1607 24 19.058 23.9598 18.9777 23.8795C18.8973 23.7991 18.8571 23.6964 18.8571 23.5714V21.9911C18.2946 22.1875 17.7232 22.2857 17.1429 22.2857H6.85714C6.27679 22.2857 5.70536 22.1875 5.14286 21.9911V23.4643C5.14286 23.6161 5.10045 23.7433 5.01562 23.846C4.9308 23.9487 4.83036 24 4.71429 24H3.85714C3.74107 24 3.64062 23.9487 3.5558 23.846C3.47098 23.7433 3.42857 23.6161 3.42857 23.4643V20.9732C2.28571 19.9286 1.71429 18.6518 1.71429 17.1429V14.5714H22.2857ZM9.42857 9C9.42857 9.125 9.38839 9.22768 9.30804 9.30804C9.22768 9.38839 9.125 9.42857 9 9.42857C8.875 9.42857 8.77232 9.38839 8.69196 9.30804C8.61161 9.22768 8.57143 9.125 8.57143 9C8.57143 8.875 8.61161 8.77232 8.69196 8.69196C8.77232 8.61161 8.875 8.57143 9 8.57143C9.125 8.57143 9.22768 8.61161 9.30804 8.69196C9.38839 8.77232 9.42857 8.875 9.42857 9ZM10.2857 8.14286C10.2857 8.26786 10.2455 8.37054 10.1652 8.45089C10.0848 8.53125 9.98214 8.57143 9.85714 8.57143C9.73214 8.57143 9.62946 8.53125 9.54911 8.45089C9.46875 8.37054 9.42857 8.26786 9.42857 8.14286C9.42857 8.01786 9.46875 7.91518 9.54911 7.83482C9.62946 7.75446 9.73214 7.71429 9.85714 7.71429C9.98214 7.71429 10.0848 7.75446 10.1652 7.83482C10.2455 7.91518 10.2857 8.01786 10.2857 8.14286ZM9.42857 7.28571C9.42857 7.41071 9.38839 7.51339 9.30804 7.59375C9.22768 7.67411 9.125 7.71429 9 7.71429C8.875 7.71429 8.77232 7.67411 8.69196 7.59375C8.61161 7.51339 8.57143 7.41071 8.57143 7.28571C8.57143 7.16071 8.61161 7.05804 8.69196 6.97768C8.77232 6.89732 8.875 6.85714 9 6.85714C9.125 6.85714 9.22768 6.89732 9.30804 6.97768C9.38839 7.05804 9.42857 7.16071 9.42857 7.28571ZM11.1429 7.28571C11.1429 7.41071 11.1027 7.51339 11.0223 7.59375C10.942 7.67411 10.8393 7.71429 10.7143 7.71429C10.5893 7.71429 10.4866 7.67411 10.4062 7.59375C10.3259 7.51339 10.2857 7.41071 10.2857 7.28571C10.2857 7.16071 10.3259 7.05804 10.4062 6.97768C10.4866 6.89732 10.5893 6.85714 10.7143 6.85714C10.8393 6.85714 10.942 6.89732 11.0223 6.97768C11.1027 7.05804 11.1429 7.16071 11.1429 7.28571ZM10.2857 6.42857C10.2857 6.55357 10.2455 6.65625 10.1652 6.73661C10.0848 6.81696 9.98214 6.85714 9.85714 6.85714C9.73214 6.85714 9.62946 6.81696 9.54911 6.73661C9.46875 6.65625 9.42857 6.55357 9.42857 6.42857C9.42857 6.30357 9.46875 6.20089 9.54911 6.12054C9.62946 6.04018 9.73214 6 9.85714 6C9.98214 6 10.0848 6.04018 10.1652 6.12054C10.2455 6.20089 10.2857 6.30357 10.2857 6.42857ZM9.42857 5.57143C9.42857 5.69643 9.38839 5.79911 9.30804 5.87946C9.22768 5.95982 9.125 6 9 6C8.875 6 8.77232 5.95982 8.69196 5.87946C8.61161 5.79911 8.57143 5.69643 8.57143 5.57143C8.57143 5.44643 8.61161 5.34375 8.69196 5.26339C8.77232 5.18304 8.875 5.14286 9 5.14286C9.125 5.14286 9.22768 5.18304 9.30804 5.26339C9.38839 5.34375 9.42857 5.44643 9.42857 5.57143ZM24 12.4286V13.2857C24 13.4107 23.9598 13.5134 23.8795 13.5938C23.7991 13.6741 23.6964 13.7143 23.5714 13.7143H0.428571C0.303571 13.7143 0.200893 13.6741 0.120536 13.5938C0.0401786 13.5134 0 13.4107 0 13.2857V12.4286C0 12.3036 0.0401786 12.2009 0.120536 12.1205C0.200893 12.0402 0.303571 12 0.428571 12H1.71429V3.42857C1.71429 2.48214 2.04911 1.67411 2.71875 1.00446C3.38839 0.334821 4.19643 0 5.14286 0C6.10714 0 6.92857 0.348214 7.60714 1.04464C8.01786 0.875 8.45536 0.821429 8.91964 0.883929C9.38393 0.946429 9.79911 1.12054 10.1652 1.40625L10.4598 1.11161C10.558 1.01339 10.6562 1.01339 10.7545 1.11161L11.317 1.67411C11.4152 1.77232 11.4152 1.87054 11.317 1.96875L7.11161 6.17411C7.01339 6.27232 6.91518 6.27232 6.81696 6.17411L6.25446 5.61161C6.15625 5.51339 6.15625 5.41518 6.25446 5.31696L6.54911 5.02232C6.22768 4.61161 6.04688 4.14732 6.0067 3.62946C5.96652 3.11161 6.07143 2.62946 6.32143 2.18304C5.99107 1.87054 5.59821 1.71429 5.14286 1.71429C4.66964 1.71429 4.26562 1.8817 3.9308 2.21652C3.59598 2.55134 3.42857 2.95536 3.42857 3.42857V12H23.5714C23.6964 12 23.7991 12.0402 23.8795 12.1205C23.9598 12.2009 24 12.3036 24 12.4286ZM12 6.42857C12 6.55357 11.9598 6.65625 11.8795 6.73661C11.7991 6.81696 11.6964 6.85714 11.5714 6.85714C11.4464 6.85714 11.3438 6.81696 11.2634 6.73661C11.183 6.65625 11.1429 6.55357 11.1429 6.42857C11.1429 6.30357 11.183 6.20089 11.2634 6.12054C11.3438 6.04018 11.4464 6 11.5714 6C11.6964 6 11.7991 6.04018 11.8795 6.12054C11.9598 6.20089 12 6.30357 12 6.42857ZM11.1429 5.57143C11.1429 5.69643 11.1027 5.79911 11.0223 5.87946C10.942 5.95982 10.8393 6 10.7143 6C10.5893 6 10.4866 5.95982 10.4062 5.87946C10.3259 5.79911 10.2857 5.69643 10.2857 5.57143C10.2857 5.44643 10.3259 5.34375 10.4062 5.26339C10.4866 5.18304 10.5893 5.14286 10.7143 5.14286C10.8393 5.14286 10.942 5.18304 11.0223 5.26339C11.1027 5.34375 11.1429 5.44643 11.1429 5.57143ZM10.2857 4.71429C10.2857 4.83929 10.2455 4.94196 10.1652 5.02232C10.0848 5.10268 9.98214 5.14286 9.85714 5.14286C9.73214 5.14286 9.62946 5.10268 9.54911 5.02232C9.46875 4.94196 9.42857 4.83929 9.42857 4.71429C9.42857 4.58929 9.46875 4.48661 9.54911 4.40625C9.62946 4.32589 9.73214 4.28571 9.85714 4.28571C9.98214 4.28571 10.0848 4.32589 10.1652 4.40625C10.2455 4.48661 10.2857 4.58929 10.2857 4.71429ZM12.8571 5.57143C12.8571 5.69643 12.817 5.79911 12.7366 5.87946C12.6562 5.95982 12.5536 6 12.4286 6C12.3036 6 12.2009 5.95982 12.1205 5.87946C12.0402 5.79911 12 5.69643 12 5.57143C12 5.44643 12.0402 5.34375 12.1205 5.26339C12.2009 5.18304 12.3036 5.14286 12.4286 5.14286C12.5536 5.14286 12.6562 5.18304 12.7366 5.26339C12.817 5.34375 12.8571 5.44643 12.8571 5.57143ZM12 4.71429C12 4.83929 11.9598 4.94196 11.8795 5.02232C11.7991 5.10268 11.6964 5.14286 11.5714 5.14286C11.4464 5.14286 11.3438 5.10268 11.2634 5.02232C11.183 4.94196 11.1429 4.83929 11.1429 4.71429C11.1429 4.58929 11.183 4.48661 11.2634 4.40625C11.3438 4.32589 11.4464 4.28571 11.5714 4.28571C11.6964 4.28571 11.7991 4.32589 11.8795 4.40625C11.9598 4.48661 12 4.58929 12 4.71429ZM11.1429 3.85714C11.1429 3.98214 11.1027 4.08482 11.0223 4.16518C10.942 4.24554 10.8393 4.28571 10.7143 4.28571C10.5893 4.28571 10.4866 4.24554 10.4062 4.16518C10.3259 4.08482 10.2857 3.98214 10.2857 3.85714C10.2857 3.73214 10.3259 3.62946 10.4062 3.54911C10.4866 3.46875 10.5893 3.42857 10.7143 3.42857C10.8393 3.42857 10.942 3.46875 11.0223 3.54911C11.1027 3.62946 11.1429 3.73214 11.1429 3.85714ZM13.7143 4.71429C13.7143 4.83929 13.6741 4.94196 13.5938 5.02232C13.5134 5.10268 13.4107 5.14286 13.2857 5.14286C13.1607 5.14286 13.058 5.10268 12.9777 5.02232C12.8973 4.94196 12.8571 4.83929 12.8571 4.71429C12.8571 4.58929 12.8973 4.48661 12.9777 4.40625C13.058 4.32589 13.1607 4.28571 13.2857 4.28571C13.4107 4.28571 13.5134 4.32589 13.5938 4.40625C13.6741 4.48661 13.7143 4.58929 13.7143 4.71429ZM12.8571 3.85714C12.8571 3.98214 12.817 4.08482 12.7366 4.16518C12.6562 4.24554 12.5536 4.28571 12.4286 4.28571C12.3036 4.28571 12.2009 4.24554 12.1205 4.16518C12.0402 4.08482 12 3.98214 12 3.85714C12 3.73214 12.0402 3.62946 12.1205 3.54911C12.2009 3.46875 12.3036 3.42857 12.4286 3.42857C12.5536 3.42857 12.6562 3.46875 12.7366 3.54911C12.817 3.62946 12.8571 3.73214 12.8571 3.85714ZM14.5714 3.85714C14.5714 3.98214 14.5312 4.08482 14.4509 4.16518C14.3705 4.24554 14.2679 4.28571 14.1429 4.28571C14.0179 4.28571 13.9152 4.24554 13.8348 4.16518C13.7545 4.08482 13.7143 3.98214 13.7143 3.85714C13.7143 3.73214 13.7545 3.62946 13.8348 3.54911C13.9152 3.46875 14.0179 3.42857 14.1429 3.42857C14.2679 3.42857 14.3705 3.46875 14.4509 3.54911C14.5312 3.62946 14.5714 3.73214 14.5714 3.85714Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold">2</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">Bathroom</p>
+                    </span>
+                    <span class="col-4 pd-hilang">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.18745 6.4C9.36745 4.912 9.66746 3.592 10.0485 2.5328C10.368 1.6464 10.731 0.9824 11.0955 0.5552C11.46 0.128 11.766 0 12 0C12.234 0 12.54 0.128 12.9045 0.5552C13.269 0.9824 13.632 1.6464 13.9515 2.5328C14.334 3.592 14.634 4.912 14.8125 6.4H9.18745ZM8.64744 1.9584C8.84995 1.4 9.07795 0.8832 9.33445 0.4272C7.99545 0.871607 6.77199 1.64281 5.76118 2.6796C4.75038 3.71639 3.98005 4.99023 3.51135 6.4H7.67543C7.86443 4.72 8.20043 3.2016 8.64894 1.9584H8.64744ZM15.3526 1.9584C15.1651 1.42794 14.9353 0.91565 14.6655 0.4272C16.0046 0.871607 17.228 1.64281 18.2388 2.6796C19.2496 3.71639 20.0199 4.99023 20.4886 6.4H16.3246C16.1356 4.72 15.7996 3.2016 15.3511 1.9584H15.3526ZM16.4551 8H20.8742C21.041 9.05925 21.041 10.1408 20.8742 11.2H16.4551C16.5128 10.1342 16.5128 9.06578 16.4551 8ZM16.3231 12.8H20.4871C20.0184 14.2098 19.2481 15.4836 18.2373 16.5204C17.2265 17.5572 16.0031 18.3284 14.664 18.7728C14.9191 18.3168 15.1486 17.8 15.3496 17.2416C15.7996 15.9984 16.1341 14.48 16.3246 12.8H16.3231ZM12.903 18.6448C12.5385 19.072 12.2325 19.2 11.9985 19.2C11.7645 19.2 11.4585 19.072 11.094 18.6448C10.7295 18.2176 10.3665 17.5536 10.047 16.6672C9.66446 15.608 9.36445 14.2896 9.18595 12.8H14.811C14.631 14.288 14.331 15.608 13.95 16.6672C13.6305 17.5536 13.2675 18.2176 12.903 18.6448ZM3.51135 12.8C3.98005 14.2098 4.75038 15.4836 5.76118 16.5204C6.77199 17.5572 7.99545 18.3284 9.33445 18.7728C9.06524 18.2843 8.83589 17.772 8.64894 17.2416C8.19893 15.9984 7.86443 14.48 7.67393 12.8H3.51285H3.51135ZM7.54342 11.2H3.12435C2.95763 10.1407 2.95763 9.05926 3.12435 8H7.54342C7.48589 9.06578 7.48589 10.1342 7.54342 11.2ZM9.04495 8C8.98377 9.06567 8.98377 10.1343 9.04495 11.2H14.9551C15.0162 10.1343 15.0162 9.06567 14.9551 8H9.04495ZM2.24983 16H3.38235C3.75436 16.5696 4.17587 17.1008 4.63787 17.5872C4.59234 17.596 4.54614 17.6003 4.49987 17.6H2.83484L1.70982 22.4H22.2902L21.1652 17.6H19.5001C19.4539 17.6003 19.4077 17.596 19.3621 17.5872C19.8256 17.1005 20.2459 16.5692 20.6176 16H21.7502C21.9175 16 22.08 16.0598 22.2118 16.1696C22.3436 16.2795 22.4372 16.4333 22.4777 16.6064L23.9777 23.0064C24.0053 23.1243 24.0073 23.2474 23.9836 23.3662C23.96 23.4851 23.9112 23.5966 23.8411 23.6924C23.771 23.7882 23.6813 23.8657 23.5789 23.919C23.4765 23.9722 23.3641 24 23.2502 24H0.749806C0.635881 24 0.52346 23.9722 0.421076 23.919C0.318692 23.8657 0.229036 23.7882 0.158912 23.6924C0.088789 23.5966 0.0400413 23.4851 0.0163694 23.3662C-0.00730257 23.2474 -0.00527666 23.1243 0.0222932 23.0064L1.52232 16.6064C1.56281 16.4333 1.6564 16.2795 1.78823 16.1696C1.92005 16.0598 2.08253 16 2.24983 16Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold text-lowercase">352M</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">
+                        Surface Area
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Close :: card 1 -->
+          <!-- Start :: card 2 -->
+          <div class="col-lg-4 pt-4" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="google.com"
+              class="card card-rekomendasi text-decoration-none border-0"
+            >
+              <div class="img-rekomendasi">
+                <img
+                  src="assets/img/home-img.png"
+                  class="rekomendasi-image"
+                  alt=""
+                />
+              </div>
+              <div class="card-body card-body-rekomendasi">
+                <div class="row pt-4">
+                  <div class="col-8 m-0">
+                    <p class="m-0 fw-bold"><sub>IDR.<s class="text-danger"></sub>225.000.000</s></p>
+                    <h5 class="m-0 fw-bold"><sub>IDR.</sub>225.000.000</h5>
+                    <p class="m-0 text-capitalize font-14">Cluster Custodian</p>
+                  </div>
+                  <h6
+                    class="col-4 text-center align-self-center fw-bold sell-hover"
+                  >
+                    Sell
+                  </h6>
+                </div>
+
+                <div class="card-fasilitas pt-4">
+                  <div class="row text-center">
+                    <span class="col-2 pd-hilang">
+                      <svg
+                        width="24"
+                        height="14"
+                        viewBox="0 0 24 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6.6 7C8.25413 7 9.6 5.69151 9.6 4.08333C9.6 2.47516 8.25413 1.16667 6.6 1.16667C4.94588 1.16667 3.6 2.47516 3.6 4.08333C3.6 5.69151 4.94588 7 6.6 7ZM19.8 2.33333H11.4C11.0685 2.33333 10.8 2.59437 10.8 2.91667V8.16667H2.4V0.583333C2.4 0.261042 2.1315 0 1.8 0H0.6C0.2685 0 0 0.261042 0 0.583333V13.4167C0 13.739 0.2685 14 0.6 14H1.8C2.1315 14 2.4 13.739 2.4 13.4167V11.6667H21.6V13.4167C21.6 13.739 21.8685 14 22.2 14H23.4C23.7315 14 24 13.739 24 13.4167V6.41667C24 4.16135 22.1198 2.33333 19.8 2.33333Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold">3</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">Room</p>
+                    </span>
+                    <span class="col-6 pd-hilang">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22.2857 14.5714V17.1429C22.2857 18.6518 21.7143 19.9286 20.5714 20.9732V23.5714C20.5714 23.6964 20.5312 23.7991 20.4509 23.8795C20.3705 23.9598 20.2679 24 20.1429 24H19.2857C19.1607 24 19.058 23.9598 18.9777 23.8795C18.8973 23.7991 18.8571 23.6964 18.8571 23.5714V21.9911C18.2946 22.1875 17.7232 22.2857 17.1429 22.2857H6.85714C6.27679 22.2857 5.70536 22.1875 5.14286 21.9911V23.4643C5.14286 23.6161 5.10045 23.7433 5.01562 23.846C4.9308 23.9487 4.83036 24 4.71429 24H3.85714C3.74107 24 3.64062 23.9487 3.5558 23.846C3.47098 23.7433 3.42857 23.6161 3.42857 23.4643V20.9732C2.28571 19.9286 1.71429 18.6518 1.71429 17.1429V14.5714H22.2857ZM9.42857 9C9.42857 9.125 9.38839 9.22768 9.30804 9.30804C9.22768 9.38839 9.125 9.42857 9 9.42857C8.875 9.42857 8.77232 9.38839 8.69196 9.30804C8.61161 9.22768 8.57143 9.125 8.57143 9C8.57143 8.875 8.61161 8.77232 8.69196 8.69196C8.77232 8.61161 8.875 8.57143 9 8.57143C9.125 8.57143 9.22768 8.61161 9.30804 8.69196C9.38839 8.77232 9.42857 8.875 9.42857 9ZM10.2857 8.14286C10.2857 8.26786 10.2455 8.37054 10.1652 8.45089C10.0848 8.53125 9.98214 8.57143 9.85714 8.57143C9.73214 8.57143 9.62946 8.53125 9.54911 8.45089C9.46875 8.37054 9.42857 8.26786 9.42857 8.14286C9.42857 8.01786 9.46875 7.91518 9.54911 7.83482C9.62946 7.75446 9.73214 7.71429 9.85714 7.71429C9.98214 7.71429 10.0848 7.75446 10.1652 7.83482C10.2455 7.91518 10.2857 8.01786 10.2857 8.14286ZM9.42857 7.28571C9.42857 7.41071 9.38839 7.51339 9.30804 7.59375C9.22768 7.67411 9.125 7.71429 9 7.71429C8.875 7.71429 8.77232 7.67411 8.69196 7.59375C8.61161 7.51339 8.57143 7.41071 8.57143 7.28571C8.57143 7.16071 8.61161 7.05804 8.69196 6.97768C8.77232 6.89732 8.875 6.85714 9 6.85714C9.125 6.85714 9.22768 6.89732 9.30804 6.97768C9.38839 7.05804 9.42857 7.16071 9.42857 7.28571ZM11.1429 7.28571C11.1429 7.41071 11.1027 7.51339 11.0223 7.59375C10.942 7.67411 10.8393 7.71429 10.7143 7.71429C10.5893 7.71429 10.4866 7.67411 10.4062 7.59375C10.3259 7.51339 10.2857 7.41071 10.2857 7.28571C10.2857 7.16071 10.3259 7.05804 10.4062 6.97768C10.4866 6.89732 10.5893 6.85714 10.7143 6.85714C10.8393 6.85714 10.942 6.89732 11.0223 6.97768C11.1027 7.05804 11.1429 7.16071 11.1429 7.28571ZM10.2857 6.42857C10.2857 6.55357 10.2455 6.65625 10.1652 6.73661C10.0848 6.81696 9.98214 6.85714 9.85714 6.85714C9.73214 6.85714 9.62946 6.81696 9.54911 6.73661C9.46875 6.65625 9.42857 6.55357 9.42857 6.42857C9.42857 6.30357 9.46875 6.20089 9.54911 6.12054C9.62946 6.04018 9.73214 6 9.85714 6C9.98214 6 10.0848 6.04018 10.1652 6.12054C10.2455 6.20089 10.2857 6.30357 10.2857 6.42857ZM9.42857 5.57143C9.42857 5.69643 9.38839 5.79911 9.30804 5.87946C9.22768 5.95982 9.125 6 9 6C8.875 6 8.77232 5.95982 8.69196 5.87946C8.61161 5.79911 8.57143 5.69643 8.57143 5.57143C8.57143 5.44643 8.61161 5.34375 8.69196 5.26339C8.77232 5.18304 8.875 5.14286 9 5.14286C9.125 5.14286 9.22768 5.18304 9.30804 5.26339C9.38839 5.34375 9.42857 5.44643 9.42857 5.57143ZM24 12.4286V13.2857C24 13.4107 23.9598 13.5134 23.8795 13.5938C23.7991 13.6741 23.6964 13.7143 23.5714 13.7143H0.428571C0.303571 13.7143 0.200893 13.6741 0.120536 13.5938C0.0401786 13.5134 0 13.4107 0 13.2857V12.4286C0 12.3036 0.0401786 12.2009 0.120536 12.1205C0.200893 12.0402 0.303571 12 0.428571 12H1.71429V3.42857C1.71429 2.48214 2.04911 1.67411 2.71875 1.00446C3.38839 0.334821 4.19643 0 5.14286 0C6.10714 0 6.92857 0.348214 7.60714 1.04464C8.01786 0.875 8.45536 0.821429 8.91964 0.883929C9.38393 0.946429 9.79911 1.12054 10.1652 1.40625L10.4598 1.11161C10.558 1.01339 10.6562 1.01339 10.7545 1.11161L11.317 1.67411C11.4152 1.77232 11.4152 1.87054 11.317 1.96875L7.11161 6.17411C7.01339 6.27232 6.91518 6.27232 6.81696 6.17411L6.25446 5.61161C6.15625 5.51339 6.15625 5.41518 6.25446 5.31696L6.54911 5.02232C6.22768 4.61161 6.04688 4.14732 6.0067 3.62946C5.96652 3.11161 6.07143 2.62946 6.32143 2.18304C5.99107 1.87054 5.59821 1.71429 5.14286 1.71429C4.66964 1.71429 4.26562 1.8817 3.9308 2.21652C3.59598 2.55134 3.42857 2.95536 3.42857 3.42857V12H23.5714C23.6964 12 23.7991 12.0402 23.8795 12.1205C23.9598 12.2009 24 12.3036 24 12.4286ZM12 6.42857C12 6.55357 11.9598 6.65625 11.8795 6.73661C11.7991 6.81696 11.6964 6.85714 11.5714 6.85714C11.4464 6.85714 11.3438 6.81696 11.2634 6.73661C11.183 6.65625 11.1429 6.55357 11.1429 6.42857C11.1429 6.30357 11.183 6.20089 11.2634 6.12054C11.3438 6.04018 11.4464 6 11.5714 6C11.6964 6 11.7991 6.04018 11.8795 6.12054C11.9598 6.20089 12 6.30357 12 6.42857ZM11.1429 5.57143C11.1429 5.69643 11.1027 5.79911 11.0223 5.87946C10.942 5.95982 10.8393 6 10.7143 6C10.5893 6 10.4866 5.95982 10.4062 5.87946C10.3259 5.79911 10.2857 5.69643 10.2857 5.57143C10.2857 5.44643 10.3259 5.34375 10.4062 5.26339C10.4866 5.18304 10.5893 5.14286 10.7143 5.14286C10.8393 5.14286 10.942 5.18304 11.0223 5.26339C11.1027 5.34375 11.1429 5.44643 11.1429 5.57143ZM10.2857 4.71429C10.2857 4.83929 10.2455 4.94196 10.1652 5.02232C10.0848 5.10268 9.98214 5.14286 9.85714 5.14286C9.73214 5.14286 9.62946 5.10268 9.54911 5.02232C9.46875 4.94196 9.42857 4.83929 9.42857 4.71429C9.42857 4.58929 9.46875 4.48661 9.54911 4.40625C9.62946 4.32589 9.73214 4.28571 9.85714 4.28571C9.98214 4.28571 10.0848 4.32589 10.1652 4.40625C10.2455 4.48661 10.2857 4.58929 10.2857 4.71429ZM12.8571 5.57143C12.8571 5.69643 12.817 5.79911 12.7366 5.87946C12.6562 5.95982 12.5536 6 12.4286 6C12.3036 6 12.2009 5.95982 12.1205 5.87946C12.0402 5.79911 12 5.69643 12 5.57143C12 5.44643 12.0402 5.34375 12.1205 5.26339C12.2009 5.18304 12.3036 5.14286 12.4286 5.14286C12.5536 5.14286 12.6562 5.18304 12.7366 5.26339C12.817 5.34375 12.8571 5.44643 12.8571 5.57143ZM12 4.71429C12 4.83929 11.9598 4.94196 11.8795 5.02232C11.7991 5.10268 11.6964 5.14286 11.5714 5.14286C11.4464 5.14286 11.3438 5.10268 11.2634 5.02232C11.183 4.94196 11.1429 4.83929 11.1429 4.71429C11.1429 4.58929 11.183 4.48661 11.2634 4.40625C11.3438 4.32589 11.4464 4.28571 11.5714 4.28571C11.6964 4.28571 11.7991 4.32589 11.8795 4.40625C11.9598 4.48661 12 4.58929 12 4.71429ZM11.1429 3.85714C11.1429 3.98214 11.1027 4.08482 11.0223 4.16518C10.942 4.24554 10.8393 4.28571 10.7143 4.28571C10.5893 4.28571 10.4866 4.24554 10.4062 4.16518C10.3259 4.08482 10.2857 3.98214 10.2857 3.85714C10.2857 3.73214 10.3259 3.62946 10.4062 3.54911C10.4866 3.46875 10.5893 3.42857 10.7143 3.42857C10.8393 3.42857 10.942 3.46875 11.0223 3.54911C11.1027 3.62946 11.1429 3.73214 11.1429 3.85714ZM13.7143 4.71429C13.7143 4.83929 13.6741 4.94196 13.5938 5.02232C13.5134 5.10268 13.4107 5.14286 13.2857 5.14286C13.1607 5.14286 13.058 5.10268 12.9777 5.02232C12.8973 4.94196 12.8571 4.83929 12.8571 4.71429C12.8571 4.58929 12.8973 4.48661 12.9777 4.40625C13.058 4.32589 13.1607 4.28571 13.2857 4.28571C13.4107 4.28571 13.5134 4.32589 13.5938 4.40625C13.6741 4.48661 13.7143 4.58929 13.7143 4.71429ZM12.8571 3.85714C12.8571 3.98214 12.817 4.08482 12.7366 4.16518C12.6562 4.24554 12.5536 4.28571 12.4286 4.28571C12.3036 4.28571 12.2009 4.24554 12.1205 4.16518C12.0402 4.08482 12 3.98214 12 3.85714C12 3.73214 12.0402 3.62946 12.1205 3.54911C12.2009 3.46875 12.3036 3.42857 12.4286 3.42857C12.5536 3.42857 12.6562 3.46875 12.7366 3.54911C12.817 3.62946 12.8571 3.73214 12.8571 3.85714ZM14.5714 3.85714C14.5714 3.98214 14.5312 4.08482 14.4509 4.16518C14.3705 4.24554 14.2679 4.28571 14.1429 4.28571C14.0179 4.28571 13.9152 4.24554 13.8348 4.16518C13.7545 4.08482 13.7143 3.98214 13.7143 3.85714C13.7143 3.73214 13.7545 3.62946 13.8348 3.54911C13.9152 3.46875 14.0179 3.42857 14.1429 3.42857C14.2679 3.42857 14.3705 3.46875 14.4509 3.54911C14.5312 3.62946 14.5714 3.73214 14.5714 3.85714Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold">2</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">Bathroom</p>
+                    </span>
+                    <span class="col-4 pd-hilang">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.18745 6.4C9.36745 4.912 9.66746 3.592 10.0485 2.5328C10.368 1.6464 10.731 0.9824 11.0955 0.5552C11.46 0.128 11.766 0 12 0C12.234 0 12.54 0.128 12.9045 0.5552C13.269 0.9824 13.632 1.6464 13.9515 2.5328C14.334 3.592 14.634 4.912 14.8125 6.4H9.18745ZM8.64744 1.9584C8.84995 1.4 9.07795 0.8832 9.33445 0.4272C7.99545 0.871607 6.77199 1.64281 5.76118 2.6796C4.75038 3.71639 3.98005 4.99023 3.51135 6.4H7.67543C7.86443 4.72 8.20043 3.2016 8.64894 1.9584H8.64744ZM15.3526 1.9584C15.1651 1.42794 14.9353 0.91565 14.6655 0.4272C16.0046 0.871607 17.228 1.64281 18.2388 2.6796C19.2496 3.71639 20.0199 4.99023 20.4886 6.4H16.3246C16.1356 4.72 15.7996 3.2016 15.3511 1.9584H15.3526ZM16.4551 8H20.8742C21.041 9.05925 21.041 10.1408 20.8742 11.2H16.4551C16.5128 10.1342 16.5128 9.06578 16.4551 8ZM16.3231 12.8H20.4871C20.0184 14.2098 19.2481 15.4836 18.2373 16.5204C17.2265 17.5572 16.0031 18.3284 14.664 18.7728C14.9191 18.3168 15.1486 17.8 15.3496 17.2416C15.7996 15.9984 16.1341 14.48 16.3246 12.8H16.3231ZM12.903 18.6448C12.5385 19.072 12.2325 19.2 11.9985 19.2C11.7645 19.2 11.4585 19.072 11.094 18.6448C10.7295 18.2176 10.3665 17.5536 10.047 16.6672C9.66446 15.608 9.36445 14.2896 9.18595 12.8H14.811C14.631 14.288 14.331 15.608 13.95 16.6672C13.6305 17.5536 13.2675 18.2176 12.903 18.6448ZM3.51135 12.8C3.98005 14.2098 4.75038 15.4836 5.76118 16.5204C6.77199 17.5572 7.99545 18.3284 9.33445 18.7728C9.06524 18.2843 8.83589 17.772 8.64894 17.2416C8.19893 15.9984 7.86443 14.48 7.67393 12.8H3.51285H3.51135ZM7.54342 11.2H3.12435C2.95763 10.1407 2.95763 9.05926 3.12435 8H7.54342C7.48589 9.06578 7.48589 10.1342 7.54342 11.2ZM9.04495 8C8.98377 9.06567 8.98377 10.1343 9.04495 11.2H14.9551C15.0162 10.1343 15.0162 9.06567 14.9551 8H9.04495ZM2.24983 16H3.38235C3.75436 16.5696 4.17587 17.1008 4.63787 17.5872C4.59234 17.596 4.54614 17.6003 4.49987 17.6H2.83484L1.70982 22.4H22.2902L21.1652 17.6H19.5001C19.4539 17.6003 19.4077 17.596 19.3621 17.5872C19.8256 17.1005 20.2459 16.5692 20.6176 16H21.7502C21.9175 16 22.08 16.0598 22.2118 16.1696C22.3436 16.2795 22.4372 16.4333 22.4777 16.6064L23.9777 23.0064C24.0053 23.1243 24.0073 23.2474 23.9836 23.3662C23.96 23.4851 23.9112 23.5966 23.8411 23.6924C23.771 23.7882 23.6813 23.8657 23.5789 23.919C23.4765 23.9722 23.3641 24 23.2502 24H0.749806C0.635881 24 0.52346 23.9722 0.421076 23.919C0.318692 23.8657 0.229036 23.7882 0.158912 23.6924C0.088789 23.5966 0.0400413 23.4851 0.0163694 23.3662C-0.00730257 23.2474 -0.00527666 23.1243 0.0222932 23.0064L1.52232 16.6064C1.56281 16.4333 1.6564 16.2795 1.78823 16.1696C1.92005 16.0598 2.08253 16 2.24983 16Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold text-lowercase">352M</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">
+                        Surface Area
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Close :: card 2 -->
+          <!-- Start :: card 3 -->
+          <div class="col-lg-4 pt-4" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="google.com"
+              class="card card-rekomendasi text-decoration-none border-0"
+            >
+              <div class="img-rekomendasi">
+                <img
+                  src="assets/img/home-img.png"
+                  class="rekomendasi-image"
+                  alt=""
+                />
+              </div>
+              <div class="card-body card-body-rekomendasi">
+                <div class="row pt-4">
+                  <div class="col-8 m-0">
+                    <p class="m-0 fw-bold"><sub>IDR.<s class="text-danger"></sub>225.000.000</s></p>
+                    <h5 class="m-0 fw-bold"><sub>IDR.</sub>225.000.000</h5>
+                    <p class="m-0 text-capitalize font-14">Cluster Custodian</p>
+                  </div>
+                  <h6
+                    class="col-4 text-center align-self-center fw-bold sell-hover"
+                  >
+                    Sell
+                  </h6>
+                </div>
+
+                <div class="card-fasilitas pt-4">
+                  <div class="row text-center">
+                    <span class="col-2 pd-hilang">
+                      <svg
+                        width="24"
+                        height="14"
+                        viewBox="0 0 24 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6.6 7C8.25413 7 9.6 5.69151 9.6 4.08333C9.6 2.47516 8.25413 1.16667 6.6 1.16667C4.94588 1.16667 3.6 2.47516 3.6 4.08333C3.6 5.69151 4.94588 7 6.6 7ZM19.8 2.33333H11.4C11.0685 2.33333 10.8 2.59437 10.8 2.91667V8.16667H2.4V0.583333C2.4 0.261042 2.1315 0 1.8 0H0.6C0.2685 0 0 0.261042 0 0.583333V13.4167C0 13.739 0.2685 14 0.6 14H1.8C2.1315 14 2.4 13.739 2.4 13.4167V11.6667H21.6V13.4167C21.6 13.739 21.8685 14 22.2 14H23.4C23.7315 14 24 13.739 24 13.4167V6.41667C24 4.16135 22.1198 2.33333 19.8 2.33333Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold">3</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">Room</p>
+                    </span>
+                    <span class="col-6 pd-hilang">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22.2857 14.5714V17.1429C22.2857 18.6518 21.7143 19.9286 20.5714 20.9732V23.5714C20.5714 23.6964 20.5312 23.7991 20.4509 23.8795C20.3705 23.9598 20.2679 24 20.1429 24H19.2857C19.1607 24 19.058 23.9598 18.9777 23.8795C18.8973 23.7991 18.8571 23.6964 18.8571 23.5714V21.9911C18.2946 22.1875 17.7232 22.2857 17.1429 22.2857H6.85714C6.27679 22.2857 5.70536 22.1875 5.14286 21.9911V23.4643C5.14286 23.6161 5.10045 23.7433 5.01562 23.846C4.9308 23.9487 4.83036 24 4.71429 24H3.85714C3.74107 24 3.64062 23.9487 3.5558 23.846C3.47098 23.7433 3.42857 23.6161 3.42857 23.4643V20.9732C2.28571 19.9286 1.71429 18.6518 1.71429 17.1429V14.5714H22.2857ZM9.42857 9C9.42857 9.125 9.38839 9.22768 9.30804 9.30804C9.22768 9.38839 9.125 9.42857 9 9.42857C8.875 9.42857 8.77232 9.38839 8.69196 9.30804C8.61161 9.22768 8.57143 9.125 8.57143 9C8.57143 8.875 8.61161 8.77232 8.69196 8.69196C8.77232 8.61161 8.875 8.57143 9 8.57143C9.125 8.57143 9.22768 8.61161 9.30804 8.69196C9.38839 8.77232 9.42857 8.875 9.42857 9ZM10.2857 8.14286C10.2857 8.26786 10.2455 8.37054 10.1652 8.45089C10.0848 8.53125 9.98214 8.57143 9.85714 8.57143C9.73214 8.57143 9.62946 8.53125 9.54911 8.45089C9.46875 8.37054 9.42857 8.26786 9.42857 8.14286C9.42857 8.01786 9.46875 7.91518 9.54911 7.83482C9.62946 7.75446 9.73214 7.71429 9.85714 7.71429C9.98214 7.71429 10.0848 7.75446 10.1652 7.83482C10.2455 7.91518 10.2857 8.01786 10.2857 8.14286ZM9.42857 7.28571C9.42857 7.41071 9.38839 7.51339 9.30804 7.59375C9.22768 7.67411 9.125 7.71429 9 7.71429C8.875 7.71429 8.77232 7.67411 8.69196 7.59375C8.61161 7.51339 8.57143 7.41071 8.57143 7.28571C8.57143 7.16071 8.61161 7.05804 8.69196 6.97768C8.77232 6.89732 8.875 6.85714 9 6.85714C9.125 6.85714 9.22768 6.89732 9.30804 6.97768C9.38839 7.05804 9.42857 7.16071 9.42857 7.28571ZM11.1429 7.28571C11.1429 7.41071 11.1027 7.51339 11.0223 7.59375C10.942 7.67411 10.8393 7.71429 10.7143 7.71429C10.5893 7.71429 10.4866 7.67411 10.4062 7.59375C10.3259 7.51339 10.2857 7.41071 10.2857 7.28571C10.2857 7.16071 10.3259 7.05804 10.4062 6.97768C10.4866 6.89732 10.5893 6.85714 10.7143 6.85714C10.8393 6.85714 10.942 6.89732 11.0223 6.97768C11.1027 7.05804 11.1429 7.16071 11.1429 7.28571ZM10.2857 6.42857C10.2857 6.55357 10.2455 6.65625 10.1652 6.73661C10.0848 6.81696 9.98214 6.85714 9.85714 6.85714C9.73214 6.85714 9.62946 6.81696 9.54911 6.73661C9.46875 6.65625 9.42857 6.55357 9.42857 6.42857C9.42857 6.30357 9.46875 6.20089 9.54911 6.12054C9.62946 6.04018 9.73214 6 9.85714 6C9.98214 6 10.0848 6.04018 10.1652 6.12054C10.2455 6.20089 10.2857 6.30357 10.2857 6.42857ZM9.42857 5.57143C9.42857 5.69643 9.38839 5.79911 9.30804 5.87946C9.22768 5.95982 9.125 6 9 6C8.875 6 8.77232 5.95982 8.69196 5.87946C8.61161 5.79911 8.57143 5.69643 8.57143 5.57143C8.57143 5.44643 8.61161 5.34375 8.69196 5.26339C8.77232 5.18304 8.875 5.14286 9 5.14286C9.125 5.14286 9.22768 5.18304 9.30804 5.26339C9.38839 5.34375 9.42857 5.44643 9.42857 5.57143ZM24 12.4286V13.2857C24 13.4107 23.9598 13.5134 23.8795 13.5938C23.7991 13.6741 23.6964 13.7143 23.5714 13.7143H0.428571C0.303571 13.7143 0.200893 13.6741 0.120536 13.5938C0.0401786 13.5134 0 13.4107 0 13.2857V12.4286C0 12.3036 0.0401786 12.2009 0.120536 12.1205C0.200893 12.0402 0.303571 12 0.428571 12H1.71429V3.42857C1.71429 2.48214 2.04911 1.67411 2.71875 1.00446C3.38839 0.334821 4.19643 0 5.14286 0C6.10714 0 6.92857 0.348214 7.60714 1.04464C8.01786 0.875 8.45536 0.821429 8.91964 0.883929C9.38393 0.946429 9.79911 1.12054 10.1652 1.40625L10.4598 1.11161C10.558 1.01339 10.6562 1.01339 10.7545 1.11161L11.317 1.67411C11.4152 1.77232 11.4152 1.87054 11.317 1.96875L7.11161 6.17411C7.01339 6.27232 6.91518 6.27232 6.81696 6.17411L6.25446 5.61161C6.15625 5.51339 6.15625 5.41518 6.25446 5.31696L6.54911 5.02232C6.22768 4.61161 6.04688 4.14732 6.0067 3.62946C5.96652 3.11161 6.07143 2.62946 6.32143 2.18304C5.99107 1.87054 5.59821 1.71429 5.14286 1.71429C4.66964 1.71429 4.26562 1.8817 3.9308 2.21652C3.59598 2.55134 3.42857 2.95536 3.42857 3.42857V12H23.5714C23.6964 12 23.7991 12.0402 23.8795 12.1205C23.9598 12.2009 24 12.3036 24 12.4286ZM12 6.42857C12 6.55357 11.9598 6.65625 11.8795 6.73661C11.7991 6.81696 11.6964 6.85714 11.5714 6.85714C11.4464 6.85714 11.3438 6.81696 11.2634 6.73661C11.183 6.65625 11.1429 6.55357 11.1429 6.42857C11.1429 6.30357 11.183 6.20089 11.2634 6.12054C11.3438 6.04018 11.4464 6 11.5714 6C11.6964 6 11.7991 6.04018 11.8795 6.12054C11.9598 6.20089 12 6.30357 12 6.42857ZM11.1429 5.57143C11.1429 5.69643 11.1027 5.79911 11.0223 5.87946C10.942 5.95982 10.8393 6 10.7143 6C10.5893 6 10.4866 5.95982 10.4062 5.87946C10.3259 5.79911 10.2857 5.69643 10.2857 5.57143C10.2857 5.44643 10.3259 5.34375 10.4062 5.26339C10.4866 5.18304 10.5893 5.14286 10.7143 5.14286C10.8393 5.14286 10.942 5.18304 11.0223 5.26339C11.1027 5.34375 11.1429 5.44643 11.1429 5.57143ZM10.2857 4.71429C10.2857 4.83929 10.2455 4.94196 10.1652 5.02232C10.0848 5.10268 9.98214 5.14286 9.85714 5.14286C9.73214 5.14286 9.62946 5.10268 9.54911 5.02232C9.46875 4.94196 9.42857 4.83929 9.42857 4.71429C9.42857 4.58929 9.46875 4.48661 9.54911 4.40625C9.62946 4.32589 9.73214 4.28571 9.85714 4.28571C9.98214 4.28571 10.0848 4.32589 10.1652 4.40625C10.2455 4.48661 10.2857 4.58929 10.2857 4.71429ZM12.8571 5.57143C12.8571 5.69643 12.817 5.79911 12.7366 5.87946C12.6562 5.95982 12.5536 6 12.4286 6C12.3036 6 12.2009 5.95982 12.1205 5.87946C12.0402 5.79911 12 5.69643 12 5.57143C12 5.44643 12.0402 5.34375 12.1205 5.26339C12.2009 5.18304 12.3036 5.14286 12.4286 5.14286C12.5536 5.14286 12.6562 5.18304 12.7366 5.26339C12.817 5.34375 12.8571 5.44643 12.8571 5.57143ZM12 4.71429C12 4.83929 11.9598 4.94196 11.8795 5.02232C11.7991 5.10268 11.6964 5.14286 11.5714 5.14286C11.4464 5.14286 11.3438 5.10268 11.2634 5.02232C11.183 4.94196 11.1429 4.83929 11.1429 4.71429C11.1429 4.58929 11.183 4.48661 11.2634 4.40625C11.3438 4.32589 11.4464 4.28571 11.5714 4.28571C11.6964 4.28571 11.7991 4.32589 11.8795 4.40625C11.9598 4.48661 12 4.58929 12 4.71429ZM11.1429 3.85714C11.1429 3.98214 11.1027 4.08482 11.0223 4.16518C10.942 4.24554 10.8393 4.28571 10.7143 4.28571C10.5893 4.28571 10.4866 4.24554 10.4062 4.16518C10.3259 4.08482 10.2857 3.98214 10.2857 3.85714C10.2857 3.73214 10.3259 3.62946 10.4062 3.54911C10.4866 3.46875 10.5893 3.42857 10.7143 3.42857C10.8393 3.42857 10.942 3.46875 11.0223 3.54911C11.1027 3.62946 11.1429 3.73214 11.1429 3.85714ZM13.7143 4.71429C13.7143 4.83929 13.6741 4.94196 13.5938 5.02232C13.5134 5.10268 13.4107 5.14286 13.2857 5.14286C13.1607 5.14286 13.058 5.10268 12.9777 5.02232C12.8973 4.94196 12.8571 4.83929 12.8571 4.71429C12.8571 4.58929 12.8973 4.48661 12.9777 4.40625C13.058 4.32589 13.1607 4.28571 13.2857 4.28571C13.4107 4.28571 13.5134 4.32589 13.5938 4.40625C13.6741 4.48661 13.7143 4.58929 13.7143 4.71429ZM12.8571 3.85714C12.8571 3.98214 12.817 4.08482 12.7366 4.16518C12.6562 4.24554 12.5536 4.28571 12.4286 4.28571C12.3036 4.28571 12.2009 4.24554 12.1205 4.16518C12.0402 4.08482 12 3.98214 12 3.85714C12 3.73214 12.0402 3.62946 12.1205 3.54911C12.2009 3.46875 12.3036 3.42857 12.4286 3.42857C12.5536 3.42857 12.6562 3.46875 12.7366 3.54911C12.817 3.62946 12.8571 3.73214 12.8571 3.85714ZM14.5714 3.85714C14.5714 3.98214 14.5312 4.08482 14.4509 4.16518C14.3705 4.24554 14.2679 4.28571 14.1429 4.28571C14.0179 4.28571 13.9152 4.24554 13.8348 4.16518C13.7545 4.08482 13.7143 3.98214 13.7143 3.85714C13.7143 3.73214 13.7545 3.62946 13.8348 3.54911C13.9152 3.46875 14.0179 3.42857 14.1429 3.42857C14.2679 3.42857 14.3705 3.46875 14.4509 3.54911C14.5312 3.62946 14.5714 3.73214 14.5714 3.85714Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold">2</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">Bathroom</p>
+                    </span>
+                    <span class="col-4 pd-hilang">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M9.18745 6.4C9.36745 4.912 9.66746 3.592 10.0485 2.5328C10.368 1.6464 10.731 0.9824 11.0955 0.5552C11.46 0.128 11.766 0 12 0C12.234 0 12.54 0.128 12.9045 0.5552C13.269 0.9824 13.632 1.6464 13.9515 2.5328C14.334 3.592 14.634 4.912 14.8125 6.4H9.18745ZM8.64744 1.9584C8.84995 1.4 9.07795 0.8832 9.33445 0.4272C7.99545 0.871607 6.77199 1.64281 5.76118 2.6796C4.75038 3.71639 3.98005 4.99023 3.51135 6.4H7.67543C7.86443 4.72 8.20043 3.2016 8.64894 1.9584H8.64744ZM15.3526 1.9584C15.1651 1.42794 14.9353 0.91565 14.6655 0.4272C16.0046 0.871607 17.228 1.64281 18.2388 2.6796C19.2496 3.71639 20.0199 4.99023 20.4886 6.4H16.3246C16.1356 4.72 15.7996 3.2016 15.3511 1.9584H15.3526ZM16.4551 8H20.8742C21.041 9.05925 21.041 10.1408 20.8742 11.2H16.4551C16.5128 10.1342 16.5128 9.06578 16.4551 8ZM16.3231 12.8H20.4871C20.0184 14.2098 19.2481 15.4836 18.2373 16.5204C17.2265 17.5572 16.0031 18.3284 14.664 18.7728C14.9191 18.3168 15.1486 17.8 15.3496 17.2416C15.7996 15.9984 16.1341 14.48 16.3246 12.8H16.3231ZM12.903 18.6448C12.5385 19.072 12.2325 19.2 11.9985 19.2C11.7645 19.2 11.4585 19.072 11.094 18.6448C10.7295 18.2176 10.3665 17.5536 10.047 16.6672C9.66446 15.608 9.36445 14.2896 9.18595 12.8H14.811C14.631 14.288 14.331 15.608 13.95 16.6672C13.6305 17.5536 13.2675 18.2176 12.903 18.6448ZM3.51135 12.8C3.98005 14.2098 4.75038 15.4836 5.76118 16.5204C6.77199 17.5572 7.99545 18.3284 9.33445 18.7728C9.06524 18.2843 8.83589 17.772 8.64894 17.2416C8.19893 15.9984 7.86443 14.48 7.67393 12.8H3.51285H3.51135ZM7.54342 11.2H3.12435C2.95763 10.1407 2.95763 9.05926 3.12435 8H7.54342C7.48589 9.06578 7.48589 10.1342 7.54342 11.2ZM9.04495 8C8.98377 9.06567 8.98377 10.1343 9.04495 11.2H14.9551C15.0162 10.1343 15.0162 9.06567 14.9551 8H9.04495ZM2.24983 16H3.38235C3.75436 16.5696 4.17587 17.1008 4.63787 17.5872C4.59234 17.596 4.54614 17.6003 4.49987 17.6H2.83484L1.70982 22.4H22.2902L21.1652 17.6H19.5001C19.4539 17.6003 19.4077 17.596 19.3621 17.5872C19.8256 17.1005 20.2459 16.5692 20.6176 16H21.7502C21.9175 16 22.08 16.0598 22.2118 16.1696C22.3436 16.2795 22.4372 16.4333 22.4777 16.6064L23.9777 23.0064C24.0053 23.1243 24.0073 23.2474 23.9836 23.3662C23.96 23.4851 23.9112 23.5966 23.8411 23.6924C23.771 23.7882 23.6813 23.8657 23.5789 23.919C23.4765 23.9722 23.3641 24 23.2502 24H0.749806C0.635881 24 0.52346 23.9722 0.421076 23.919C0.318692 23.8657 0.229036 23.7882 0.158912 23.6924C0.088789 23.5966 0.0400413 23.4851 0.0163694 23.3662C-0.00730257 23.2474 -0.00527666 23.1243 0.0222932 23.0064L1.52232 16.6064C1.56281 16.4333 1.6564 16.2795 1.78823 16.1696C1.92005 16.0598 2.08253 16 2.24983 16Z"
+                          id="icon-1"
+                        />
+                      </svg>
+
+                      <span class="font-14-bold text-lowercase">352M</span>
+                      <p class="font-14 text-capitalize m-0 pt-2">
+                        Surface Area
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Close :: card 3 -->
+        </div>
+      </div>
+    </section>
+    <!-- End:: rekomendasi section -->
+
+    <!-- Start:: Fitur -->
+    <section id="fitur" class="pt-5 pb-5 overflow-hidden">
+      <div class="container position-relative">
+
+        <div class="row pb-4">
+          <div class="col-9">
+            <h2 data-aos="fade-down">House features</h2>
+          </div>
+          <div class="col-3">
+            <button data-aos="fade-down" class="button-fitur">Lihat Semua
+              <img src="assets/icon/arrow-2.svg" class="padding-14" alt="">
+            </button>
+          </div>
+        </div>
+          <!-- Start::Container Card-Slider -->
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-start ms-5" data-aos="fade-left">
+              <!-- Start :: Card 1 -->
+              <div class="card-fitur  me-3 position-relative ms-2">
+                <img src="assets/img/badroom.png" class="rounded" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100 rounded">
+                  <div class="card-overlay position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5 class="m-0">
+                      Bathroom
+                    </h5>
+                    <span >Minimalist House 21/24</span>
+                    <h5 class="notif-fitur mt-5">Start From</h5>
+                    <h6 >IDR.200Jt</h6>
+                    <button class="mt-2">Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
+              <!-- End :: Card 1 -->
+              <!-- Start :: Card 1 -->
+              <div class="card-fitur  me-3 position-relative" >
+                <img src="assets/img/badroom.png" class="rounded" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100 rounded">
+                  <div class="card-overlay position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5 class="m-0">
+                      Bathroom
+                    </h5>
+                    <span >Minimalist House 21/24</span>
+                    <h5 class="notif-fitur mt-5">Start From</h5>
+                    <h6 >IDR.200Jt</h6>
+                    <button class="mt-2">Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
+              <!-- End :: Card 1 -->
+              <!-- Start :: Card 1 -->
+              <div class="card-fitur  me-3 position-relative">
+                <img src="assets/img/badroom.png" class="rounded" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100 rounded">
+                  <div class="card-overlay position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5 class="m-0">
+                      Bathroom
+                    </h5>
+                    <span >Minimalist House 21/24</span>
+                    <h5 class="notif-fitur mt-5">Start From</h5>
+                    <h6 >IDR.200Jt</h6>
+                    <button class="mt-2">Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
+              <!-- End :: Card 1 -->
+              <!-- Start :: Card 1 -->
+              <div class="card-fitur  me-3 position-relative">
+                <img src="assets/img/badroom.png" class="rounded" alt="">
+                <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100 rounded">
+                  <div class="card-overlay position-absolute top-50 start-50 translate-middle text-center w-100">
+                    <h5 class="m-0">
+                      Bathroom
+                    </h5>
+                    <span >Minimalist House 21/24</span>
+                    <h5 class="notif-fitur mt-5">Start From</h5>
+                    <h6 >IDR.200Jt</h6>
+                    <button class="mt-2">Lihat Rumah</button>
+                  </div>
+                </div>
+              </div>
+              <!-- End :: Card 1 -->
+            </div>
+          </div>
+          <button class="button-arrow-left position-absolute start-0 top-50 translate-middle">
+            <img src="assets/icon/Arrow-left.svg" alt="">
+          </buttonc>
+          <button class="button-arrow-right position-absolute end-0 top-50 translate-middle">
+            <img src="assets/icon/Arrow-right.svg" alt="">
+          </button>
+        </div>
+        <!-- End::Container Card-Slider -->
+        
+        
+      </div>
+    </section>
+    <!-- End:: Fitur -->
+
+    <!-- Start:: Contact -->
+    <section id="contact" class="mt-5 ">
+      <div class="container-fluid overlay h-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12" data-aos="fade-right">
+              <h3>Need Consultation ? <br>
+                Please Contact Us
+                We Are Ready To Help You</h3>
+              <div class="contact">
+                <h6 class="mt-3 mb-2">Contact</h6>
+
+                <div class="mb-2 d-flex">
+                  <img src="assets/icon/building.svg" alt="Building" class="align-items-center">
+                  <a href="#">Jl.Sukamakmur location 26B Jakarta
+                    Indonesia</a>
+                </div>
+
+                <div class="mb-2">
+                  <img src="assets/icon/phone.svg" alt="Building">
+                  <a href="#">+62 852 - 0230- 2022</a>
+                </div>
+                
+                <div class="mb-2">
+                  <img src="assets/icon/mail.svg" alt="Building">
+                  <a href="mailto:nirwan.mustafa83@gmail.com">nirwanproperty@businness.com</a>
+                </div>
+
+                <h6 class="mt-2">Sosial Media</h6>
+                <a href="#" class="m-2">
+                  <img src="assets/icon/facebook.svg" alt="">
+                </a>
+                <a href="#" class="m-2">
+                  <img src="assets/icon/twitter.svg" alt="">
+                </a>
+                <a href="#" class="m-2">
+                  <img src="assets/icon/instagram.svg" alt="">
+                  <span class="instagram-property">Nirwan-property</span> 
+                </a>
+
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 mt-3 mt-lg-0" data-aos="fade-left">
+              <div class="card-contact w-100">
+                <h2 class="text-center">Any Question ?</h2>
+                <form action="#" class="mt-4">
+                  <div class="form mb-3">
+                    <label for="floatingInput">E-mail :</label>
+                    <input type="email" class="form-control form-control-question mt-2" id="floatingInput" placeholder="email@gmail.com">
+                  </div>
+                  <div class="form mb-3">
+                    <label for="floatingInput">Question :</label>
+                    <input type="text" class="form-control form-control-question mt-2" id="floatingInput" placeholder="I Have Question">
+                  </div>
+
+                  <button type="submit"class="button-kontak">
+                      Send
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End:: Contact -->
+
+    <!-- Start::Section Footer -->
+    <footer class="pt-5 pb-5 d-flex align-items-center position-relative">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 d-flex">
+              <img src="assets/icon/logo.svg" alt="">
+              <a href="#" class="text-decoration-none  ms-3">Nirwan Property</a>
+            </div>
+            <div class="col-md-5 d-flex align-items-center justify-content-evenly">
+              <a href="#hero" >Home</a>
+              <a href="#Layanan" >Service</a>
+              <a href="#fitur" >Property</a>
+              <a href="#contact" >Contact</a>
+            </div>
+          </div>
+          <div class="row position-absolute copyright start-50 translate-middle">
+            <div class="col-12">
+              <p>Copyright Nirwan maulana mustafa 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End::Section Footer -->
+
+
+    <!-- Bootstrap JS -->
+    <!-- <script src="assets/js/bootstrap.js"></script> -->
+    <script src="assets/js/bootstrap5-update1807.js"></script>
+
+    <!-- Navbar Custom -->
+    <script src="assets/js/navbar-custom.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

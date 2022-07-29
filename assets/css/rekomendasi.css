@@ -1,0 +1,77 @@
+/* Rekomendasi Css */
+.font-14-bold {
+  font-size: 14px;
+  font-weight: 700;
+}
+.font-14 {
+  font-size: 14px;
+}
+.pd-hilang {
+  padding: 0;
+}
+
+.sell-hover {
+  width: 20%;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: var(--red);
+}
+.card-rekomendasi:hover .sell-hover {
+  width: 20%;
+  padding: 10px 0;
+  background-color: var(--white);
+  border-radius: 10px;
+  color: var(--red);
+}
+.rekomendasi-image {
+  border-radius: 10px 10px 0px 0px;
+}
+.card-rekomendasi {
+  overflow: hidden;
+  color: var(--black);
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.013);
+}
+
+.img-rekomendasi {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  transition: 0.2s ease-in-out;
+}
+.img-rekomendasi:focus-visible {
+  background-color: #fff;
+}
+.card-rekomendasi:hover {
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.013);
+}
+
+.card-rekomendasi .rekomendasi-image {
+  width: 100%;
+  transition: 0.2s ease-in-out;
+  /* border-radius: 10px 10px 0 0; */
+}
+.card-rekomendasi:focus-visible {
+  border: none;
+}
+.card-rekomendasi:hover .rekomendasi-image {
+  transform: scale(1.1);
+}
+.card-fasilitas {
+  font-weight: 700;
+}
+.card #icon-1 {
+  fill: var(--black);
+  transition: ease-in-out 0.2s all;
+}
+.card:hover #icon-1 {
+  fill: var(--white);
+  transition: ease-in-out 0.2s all;
+}
+.judul-shadow {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.148);
+  -webkit-text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.148);
+  -moz-text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.148);
+}
