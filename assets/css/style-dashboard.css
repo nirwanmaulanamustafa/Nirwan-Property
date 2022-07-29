@@ -16,6 +16,17 @@ body {
   /* outline: 1px solid red; */
 }
 
+h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: var(--pr-color);
+}
+@media (min-width: 580px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+
 /* Footer */
 footer {
   width: 100%;

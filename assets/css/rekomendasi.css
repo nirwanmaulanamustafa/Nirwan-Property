@@ -70,6 +70,7 @@
   fill: var(--white);
   transition: ease-in-out 0.2s all;
 }
+
 .judul-shadow {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.148);
   -webkit-text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.148);
